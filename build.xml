@@ -27,6 +27,7 @@
     </target>	
         
     <!--from http://www.innovationontherun.com/creating-a-build-number-with-ant-and-subversion-->
+    <!--
     <exec outputproperty="svnversion" executable="svnversion" dir=".">
       <arg line="-n -c" />
       <redirector>
@@ -37,8 +38,9 @@
         </outputfilterchain>
       </redirector>
     </exec>     
+    -->
 
-    <property name="file.jar" value="fame-r${svnversion}.jar"/>
+    <property name="file.jar" value="fame-r1.1.jar"/>
     <property name="include.sources" value=""/>
     <property name="DONT-include.tests" value=""/>
 
